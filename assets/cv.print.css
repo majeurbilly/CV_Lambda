@@ -1,0 +1,211 @@
+
+@page {
+    margin: 1cm 1.5cm;
+    size: letter portrait;
+}
+
+body {
+    background: #fff !important;
+    color: #333 !important;
+    font-family: 'Segoe UI', Arial, sans-serif !important;
+    font-size: 10pt !important;
+    line-height: 1.4 !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+}
+
+.no-print,
+header.header-cv,
+#lang-switcher,
+canvas,
+.github-link,
+button,
+#aboutme h2,
+#vanta-bg,
+.vanta-canvas {
+    display: none !important;
+}
+
+.cv-wrapper {
+    display: contents !important;
+}
+
+#aboutme {
+    background-color: #1a4b6b !important;
+    color: #ffffff !important;
+    padding: 20px 30px !important;
+    border-radius: 8px !important;
+    margin-bottom: 25px !important;
+    display: block !important;
+    page-break-inside: avoid;
+}
+
+#aboutme > div {
+    display: flex !important;
+    flex-direction: row-reverse !important;
+    align-items: center !important;
+    gap: 30px !important;
+}
+
+#aboutme img {
+    width: 110px !important;
+    height: 110px !important;
+    border-radius: 50% !important;
+    object-fit: cover !important;
+    border: 3px solid #fff !important;
+    margin: 0 !important;
+}
+
+#aboutme > div > div:first-of-type {
+    flex: 1 !important;
+    margin: 0 !important;
+}
+
+#aboutme address div:first-child {
+    font-size: 28pt !important;
+    font-weight: 800 !important;
+    margin-bottom: 5px !important;
+    letter-spacing: 0.5px !important;
+}
+
+#aboutme address div:last-child {
+    font-size: 11pt !important;
+    opacity: 0.9 !important;
+    margin-bottom: 12px !important;
+}
+
+#aboutme address + div {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    gap: 15px 25px !important;
+}
+
+#aboutme address + div > div {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    gap: 6px !important;
+    margin: 0 !important;
+    font-size: 10pt !important;
+}
+
+#aboutme address + div > div > div:first-child {
+    display: block !important;
+    font-weight: 700 !important;
+    color: #90caf9 !important;
+    text-transform: uppercase !important;
+    font-size: 8.5pt !important;
+    letter-spacing: 0.5px !important;
+}
+
+#aboutme address + div > div > div:first-child::after {
+    content: ":" !important;
+}
+
+#aboutme a {
+    color: #fff !important;
+    text-decoration: none !important;
+}
+
+#aboutme address div:last-child::before {
+    content: "📍 " !important;
+}
+
+section {
+    margin-bottom: 20px !important;
+    padding: 0 !important;
+    page-break-inside: auto !important;
+    break-inside: auto !important;
+}
+
+h2 {
+    color: #1a4b6b !important;
+    font-size: 13pt !important;
+    text-transform: uppercase !important;
+    letter-spacing: 1px !important;
+    border-bottom: 2px dotted #1a4b6b !important;
+    padding-bottom: 4px !important;
+    margin-top: 0 !important;
+    margin-bottom: 15px !important;
+    page-break-after: avoid;
+}
+
+.timeline-item {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: flex-start !important;
+    gap: 20px !important;
+    margin-bottom: 15px !important;
+    page-break-inside: avoid;
+    break-inside: avoid;
+}
+
+.timeline-date {
+    flex: 0 0 130px !important;
+    color: #1a4b6b !important;
+    font-style: italic !important;
+    font-weight: 500 !important;
+    font-size: 9.5pt !important;
+    margin-top: 2px !important;
+}
+
+.timeline-content {
+    flex: 1 !important;
+}
+
+.timeline-content h4 {
+    color: #222 !important;
+    font-size: 11pt !important;
+    font-weight: 700 !important;
+    margin: 0 0 3px 0 !important;
+}
+
+.timeline-content h5 {
+    color: #666 !important;
+    font-size: 10pt !important;
+    font-weight: 600 !important;
+    font-style: normal !important;
+    margin: 0 0 8px 0 !important;
+}
+
+.timeline-content p, 
+.timeline-content ul {
+    color: #444 !important;
+    margin: 0 0 8px 0 !important;
+    line-height: 1.5 !important;
+}
+
+.timeline-content li {
+    margin-bottom: 4px !important;
+}
+
+/* Tirets explicites à l'impression (expérience), FR et EN */
+#experience .timeline-content ul li {
+    display: flex !important;
+    gap: 0.35em !important;
+    align-items: flex-start !important;
+    list-style: none !important;
+}
+
+#experience .timeline-content ul li::before {
+    content: "-" !important;
+    flex-shrink: 0 !important;
+    margin-top: 0.05em !important;
+}
+
+#skills h4 {
+    color: #1a4b6b !important;
+    font-size: 10.5pt !important;
+    margin-bottom: 3px !important;
+}
+
+#skills p {
+    margin-bottom: 12px !important;
+    color: #444 !important;
+}
+
+*, *::before, *::after {
+    box-shadow: none !important;
+    text-shadow: none !important;
+}

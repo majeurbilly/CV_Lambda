@@ -1,0 +1,61 @@
+
+.header-cv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.controls button {
+    background: none;
+    border: none;
+    color: inherit;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.controls button:hover {
+    text-decoration: underline;
+}
+
+body {
+    margin: 2cm auto;
+    max-width: 210mm;
+    font-family: Verdana, sans-serif;
+}
+
+body.dark {
+    color: white;
+    background-color: black;
+    text-shadow:
+            -1px -1px 0 #000,
+            1px -1px 0 #000,
+            -1px 1px 0 #000,
+            1px 1px 0 #000;
+}
+
+body.dark a {
+    color: #0094ff;
+}
+
+.fa-telegram {
+    color: #30a8dc;
+}
+
+.fa-whatsapp {
+    color: #25d366;
+}
+
+q:lang(fr), [lang="fr"] q {
+    quotes: "«\00A0" "\00A0»";
+}
+
+q:lang(en), [lang="en"] q {
+    quotes: '"' '"';
+}
+
+.print-only {
+    display: none;
+}

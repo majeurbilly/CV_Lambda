@@ -1,0 +1,96 @@
+{
+  "ui.lang.fr": "FR",
+  "ui.lang.en": "EN",
+  
+  "page.h1": "Curriculum Vitae",
+  "page.title": "Billy Hallé | Professionnel polyvalent — Logistique, soutien et intervention",
+  
+  "aboutme.title": "À propos de moi",
+  "aboutme.summary": "Professionnel polyvalent | Logistique, soutien et intervention. Travailleur fiable et autonome, habitué aux environnements exigeants : logistique (Metro Richelieu) et intervention en santé mentale (Résidence Chanoine-Martin). Calme sous pression, orienté équipe, je cherche un milieu stable où m'investir durablement.",
+  "aboutme.location": "Duberger, Québec",
+  "aboutme.email.label": "Courriel",
+  "aboutme.github.label": "GitHub",
+  "aboutme.github.urlText": "github.com/majeurbilly",
+  "aboutme.website.label": "Site web",
+  "aboutme.website.urlText": "majeurbilly.github.io/majeurbilly",
+  "aboutme.photo.alt": "Photo de Billy",
+  
+  "education.title": "Formation",
+  "education.item1.date": "08/2024 - Présent",
+  "education.item1.school": "Cégep de Sainte-Foy",
+  "education.item1.location": ", Québec, Canada",
+  "education.item1.degree.prefix": "",
+  "education.item1.degree.value": "AEC (Programmation, bases de données et serveurs)",
+  "education.item1.degree.suffix": "",
+  "education.item2.date": "2023",
+  "education.item2.school": "Centre Saint-Louis",
+  "education.item2.degree.value": "Diplôme d'études secondaires (DES - TENS)",
+  "education.item3.date": "2016",
+  "education.item3.school": "IUSMQ",
+  "education.item3.degree.value": "Certification Loi 90 (Administration de médicaments)",
+
+  "experience.title": "Expérience professionnelle",
+  "experience.relevant.title": "Expérience pertinente",
+  "experience.item1.date": "2023",
+  "experience.item1.role": "Commis à la documentation et aux équipements",
+  "experience.item1.company": "Université Laval",
+  "experience.item1.desc1": "Préparation et suivi du matériel d'identification pour la gestion documentaire, avec souci du détail et du respect des procédures.",
+  "experience.item1.desc2": "Organisation physique et logique des collections ; classement fiable et travail d'équipe au quotidien.",
+  "experience.item1.desc3": "Soutien aux usagers : accueil, recherche documentaire et résolution de besoins courants.",
+  "experience.path.title": "Parcours professionnel et responsabilités",
+  "experience.item2.date": "2016 - 2018",
+  "experience.item2.role": "Intervenant en santé mentale",
+  "experience.item2.company": "Résidence Chanoine-Martin",
+  "experience.item2.desc1": "Application stricte des protocoles de médication (Loi 90) et des procédures administratives sensibles.",
+  "experience.item2.desc2": "Intervention calme en situations de crise ; fiabilité et travail d'équipe en milieu critique.",
+  "experience.item3.date": "2019 - 2023",
+  "experience.item3.role": "Expériences logistiques variées",
+  "experience.item3.company": "Metro Richelieu / JM Rouleau",
+  "experience.item3.desc1": "Manutention, équipements spécialisés, gestion d'inventaire et collaboration fiable en équipe.",
+
+  "skills.title": "Compétences",
+  "skills.languages.title": "Langues",
+  "skills.languages.fr": "Français : Langue maternelle",
+  "skills.languages.en": "Anglais : Lecture et compréhension écrite",
+  "skills.tech.title": "Compétences clés",
+  "skills.cat1.title": "Service à la clientèle et communication",
+  "skills.cat1.desc": "Écoute active, résolution de conflits, gestion de crise et relations avec le public.",
+
+  "skills.cat2.title": "Rigueur et opérations",
+  "skills.cat2.desc": "Respect strict des protocoles de sécurité, gestion d'inventaire, procédures administratives sensibles (Loi 90).",
+
+  "skills.cat3.title": "Informatique générale",
+  "skills.cat3.desc": "Apprentissage rapide des logiciels de gestion courants, bases de données internes et dépannage de base.",
+  "skills.cat4.title": "Équipement et logistique",
+  "skills.cat4.desc": "Manutention d'équipements d'entrepôt, travail physique, gestion des stocks et organisation matérielle.",
+
+  "projects.title": "Projets & Réalisations",
+
+  "projects.meteor.title": "Meteor — Station météo connectée (IoT)",
+  "projects.meteor.desc": "Développement complet d'une station météo (Tp3 Amoc). Intégration de microcontrôleurs, protocoles de communication (MQTT/I2C) et dashboard de visualisation.",
+
+  "projects.castle.title": "Castle of SFML — Moteur 3D & Jeu",
+  "projects.castle.desc": "Développement d'un moteur de rendu 3D (Raycaster) et d'un jeu de survie en C# (.NET 6). Implémentation d'une IA de pathfinding (BFS) et conception d'une architecture modulaire couverte par des tests automatisés (xUnit, CI/CD).",
+
+  "projects.omnivox.title": "Dark Omnivox — Extension Chrome",
+  "projects.omnivox.desc": "Création d'un thème sombre personnalisé pour la plateforme Omnivox afin d'améliorer l'accessibilité et le confort visuel.",
+
+  "projects.hackathon.title": "Hackathon Québec International (2025)",
+  "projects.hackathon.desc": "Collaboration intensive en équipe pour résoudre une problématique technique réelle sous pression (Projet Vermac).",
+
+  "projects.repo_link": "Consulter le code source (GitHub)",
+
+  "activities.title": "Projets & Activités",
+  "activities.item1.year": "2026",
+  "activities.project.name": "Metor",
+  "activities.project.createdRest1": " a été développé dans le cadre du cours ",
+  "activities.project.createdRest2": " (Tp3 Amoc).",
+  
+  "activities.item2.year": "2025",
+  "activities.hackathon.line1.prefix": "Participant au ",
+  "activities.hackathon.name": "Hackathon 2025",
+  "activities.hackathon.line1.suffix": " organisé par ",
+  "activities.hackathon.organizer": "Québec International",
+  "activities.hackathon.line1.end": ".",
+  "activities.repo.line3.text": "Repo du projet"
+}
