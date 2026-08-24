@@ -99,13 +99,14 @@ button,
     display: block !important;
     font-weight: 700 !important;
     color: #90caf9 !important;
-    text-transform: uppercase !important;
+    text-transform: none !important;
     font-size: 8.5pt !important;
     letter-spacing: 0.5px !important;
+    white-space: nowrap !important;
 }
 
 #aboutme address + div > div > div:first-child::after {
-    content: ":" !important;
+    content: none !important;
 }
 
 #aboutme a {
