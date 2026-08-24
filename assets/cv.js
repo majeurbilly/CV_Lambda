@@ -10,6 +10,12 @@ document.addEventListener("DOMContentLoaded", function() {
         emailLink.setAttribute('href', 'mailto:' + maVraieAdresse);
     }
 
+    const phoneContainer = document.getElementById('secure-phone');
+    if (phoneContainer) {
+        // Découpage pour berner les robots — affiché uniquement à l'impression (print-only)
+        phoneContainer.innerText = ['581', '849', '8805'].join('-');
+    }
+
     function lightSwitch(e) {
         var darkClass = "dark";
         if (e.target.checked) {

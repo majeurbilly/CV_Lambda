@@ -26,6 +26,11 @@ button,
     display: none !important;
 }
 
+/* Screen stylesheet (media=screen) hides .print-only; restore phone row for PDF/print */
+#aboutme .contact-item.print-only {
+    display: flex !important;
+}
+
 .cv-wrapper {
     display: contents !important;
 }
