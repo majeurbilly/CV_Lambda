@@ -126,7 +126,7 @@ button,
 .profile-summary {
     display: block !important;
     width: 100% !important;
-    margin: 12px 0 14px !important;
+    margin: 14px 0 18px !important;
     font-size: 10pt !important;
     line-height: 1.35 !important;
     text-align: center !important;
@@ -135,7 +135,7 @@ button,
 }
 
 section {
-    margin-bottom: 14px !important;
+    margin-bottom: 18px !important;
     padding: 0 !important;
     page-break-inside: auto !important;
     break-inside: auto !important;
@@ -144,7 +144,7 @@ section {
 }
 
 #education {
-    margin-bottom: 16px !important;
+    margin-bottom: 24px !important;
 }
 
 #experience {
@@ -155,7 +155,19 @@ section {
 section.timeline > div,
 .timeline-item {
     margin-top: 0 !important;
-    margin-bottom: 11px !important;
+    margin-bottom: 12px !important;
+}
+
+#education .timeline-item {
+    margin-bottom: 10px !important;
+}
+
+#experience .timeline-item {
+    margin-bottom: 16px !important;
+}
+
+#experience .timeline-item:last-child {
+    margin-bottom: 0 !important;
 }
 
 h2 {
@@ -166,7 +178,7 @@ h2 {
     border-bottom: 1.5px dotted #1a4b6b !important;
     padding-bottom: 3px !important;
     margin-top: 0 !important;
-    margin-bottom: 10px !important;
+    margin-bottom: 12px !important;
     page-break-after: avoid;
     break-after: avoid;
 }
