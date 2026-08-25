@@ -6,7 +6,7 @@ html, body {
     line-height: 135%;
 
     word-wrap: break-word;
-    hyphens: auto;
+    hyphens: manual;
     transition-duration: 0.8s;
     transition-property: color, background-color;
     transition-timing-function: ease-in-out;
@@ -92,38 +92,22 @@ section#aboutme > div > div:last-of-type {
 }
 
 section.timeline > div {
-    margin-top: 1em;
-    margin-bottom: 1em;
+    margin-top: 0.55em;
+    margin-bottom: 0.55em;
 }
 
 ul {
-    list-style-type: none;
+    list-style-type: disc;
     margin: 0;
-    padding: 0;
-}
-
-canvas {
-    position: fixed;
-    z-index: -1;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    image-rendering: crisp-edges;
-    filter: blur(0.6em);
-    opacity: 0;
-    transition: opacity 2.5s linear;
-}
-canvas.loaded {
-    opacity: 1;
+    padding-left: 1.15em;
 }
 
 .timeline-item {
     display: flex;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     align-items: flex-start;
     width: 100%;
-    gap: 1.5rem;
+    gap: 1.25rem;
 }
 
 .timeline-date {
@@ -142,29 +126,61 @@ canvas.loaded {
 }
 
 .timeline-content h4 {
-    margin: 0 0 0.2em 0;
-    font-size: 1.2rem;
+    margin: 0 0 0.15em 0;
+    font-size: 1.15rem;
 }
 
 .timeline-content h5 {
-    margin: 0 0 0.5em 0;
+    margin: 0 0 0.35em 0;
     font-weight: normal;
     color: #777;
     font-style: italic;
 }
 
 .timeline-content ul {
-    margin: 0;
-    padding-left: 1.2em;
+    margin: 0.15em 0 0;
+    padding-left: 1.15em;
     color: #555;
     font-size: 0.95rem;
-    line-height: 1.5;
+    line-height: 1.4;
+    list-style-type: disc;
+}
+
+.timeline-content li {
+    margin: 0 0 0.2em;
+    padding: 0;
+    display: list-item;
 }
 
 .timeline-content p {
     margin: 0 0 10px 0;
     color: #555;
     line-height: 1.4;
+}
+
+.profile-summary {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 1rem 0 1.25rem;
+    font-size: 1.05rem;
+    line-height: 1.4;
+}
+
+canvas {
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    image-rendering: crisp-edges;
+    filter: blur(0.6em);
+    opacity: 0;
+    transition: opacity 2.5s linear;
+}
+canvas.loaded {
+    opacity: 1;
 }
 
 .github-link {
